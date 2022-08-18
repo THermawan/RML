@@ -1,0 +1,7 @@
+Common
+Uncommon
+Rare
+Very Rare
+Unique
+Legendary
+Pearlescent
