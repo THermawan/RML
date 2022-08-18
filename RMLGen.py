@@ -82,3 +82,8 @@ class RMLGen:
 
         for weapon in self.repo:
             print(weapon)
+
+    # Reset hist.
+    def reset_repo(self):
+        self.repo = []
+        return "\nINVENTORY CLEARED."

@@ -51,6 +51,10 @@ while comm != 'QUIT':
     elif comm[0] == 'HIST' and len(comm) == 1:
         gen.print_repo()
 
+    # Option 3: Reset history.
+    elif comm[0] == 'RESET' and len(comm) == 1:
+        print(gen.reset_repo())
+
     # Invalid comm message.
     else:
         print('SURE THING, BUDDY.')
